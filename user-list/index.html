@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <title>User List</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+      <h1>
+        <a href="../index.html" class="navbar-brand">
+          <i class="bi bi-bootstrap-fill"></i>
+          My Bootstrap User list
+        </a>
+      </h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="../pricing-cards/index.html" class="nav-link">Pricing cards</a>
+          </li>
+          <li class="nav-item">
+            <a href="../rating-component/" class="nav-link">Ratings component</a>
+          </li>
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link active">User list</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="mb-5">
+    <div class="container mt-5">
+      <div class="d-flex justify-content-end">
+        <div class="btn-group">
+          <button class="btn btn-secondary btn-sm" data-bs-theme-value="dark">Dark</button>
+          <button class="btn btn-light btn-sm" data-bs-theme-value="light">Light</button>
+        </div>
+      </div>
+      <h1 class="mb-4">Users</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <input type="text" class="form-control form-control-lg rounded-pill" placeholder="search users...">
+        </div>
+        <div class="col-md-8 d-flex user-list justify-content-end align-items-center">
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link text-capitalize">Reputation</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-capitalize text-bg-primary rounded-4">New users</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-capitalize">editors</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-capitalize">moderators</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- User List -->
+  <main>
+    <div class="container">
+      <!-- Row -->
+      <div class="row">
+        <!-- User -->
+        <div class="col-md-4">
+          <div class="card mb-3" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"
+            data-bs-content="email: john@ul.com">
+            <div class="card-body">
+              <div class="d-flex gap-3">
+                <div class="user-img">
+                  <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="user" class="img-fluid rounded-circle">
+                </div>
+                <div class="user-info">
+                  <h4>John Doe</h4>
+                  <h6>Troy, MI</h6>
+                  <span class="badge bg-primary text-capitalize">Nature</span>
+                  <span class="badge bg-primary text-capitalize">Travel</span>
+                  <span class="badge bg-primary text-capitalize">Sports</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- User -->
+        <div class="col-md-4">
+          <div class="card mb-3" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"
+            data-bs-content="email: jane@ul.com">
+            <div class="card-body">
+              <div class="d-flex gap-3">
+                <div class="user-img">
+                  <img src="https://randomuser.me/api/portraits/women/8.jpg" alt="user"
+                    class="img-fluid rounded-circle">
+                </div>
+                <div class="user-info">
+                  <h4>Jane Doe</h4>
+                  <h6>Albany, NY</h6>
+                  <span class="badge bg-primary text-capitalize">STEM</span>
+                  <span class="badge bg-primary text-capitalize">sci-fi</span>
+                  <span class="badge bg-primary text-capitalize">movies</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- User -->
+        <div class="col-md-4">
+          <div class="card mb-3" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"
+            data-bs-content="email: gene@ul.com">
+            <div class="card-body">
+              <div class="d-flex gap-3">
+                <div class="user-img">
+                  <img src="https://randomuser.me/api/portraits/men/7.jpg" alt="user" class="img-fluid rounded-circle">
+                </div>
+                <div class="user-info">
+                  <h4>Gene Eric</h4>
+                  <h6>Miami, FL</h6>
+                  <span class="badge bg-primary text-capitalize">food</span>
+                  <span class="badge bg-primary text-capitalize">cars</span>
+                  <span class="badge bg-primary text-capitalize">surf</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Row -->
+      <div class="row">
+        <!-- User -->
+        <div class="col-md-4">
+          <div class="card mb-3" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"
+            data-bs-content="email: annie@ul.com">
+            <div class="card-body">
+              <div class="d-flex gap-3">
+                <div class="user-img">
+                  <img src="https://randomuser.me/api/portraits/women/50.jpg" alt="user"
+                    class="img-fluid rounded-circle">
+                </div>
+                <div class="user-info">
+                  <h4>Annie Perry</h4>
+                  <h6>Denver, CO</h6>
+                  <span class="badge bg-primary text-capitalize">Books</span>
+                  <span class="badge bg-primary text-capitalize">Wine</span>
+                  <span class="badge bg-primary text-capitalize">TV</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- User -->
+        <div class="col-md-4">
+          <div class="card mb-3" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"
+            data-bs-content="email: will@ul.com">
+            <div class="card-body">
+              <div class="d-flex gap-3">
+                <div class="user-img">
+                  <img src="https://randomuser.me/api/portraits/men/8.jpg" alt="user" class="img-fluid rounded-circle">
+                </div>
+                <div class="user-info">
+                  <h4>Will Peralta</h4>
+                  <h6>Houston, TX</h6>
+                  <span class="badge bg-primary text-capitalize">politics</span>
+                  <span class="badge bg-primary text-capitalize">law</span>
+                  <span class="badge bg-primary text-capitalize">books</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- User -->
+        <div class="col-md-4">
+          <div class="card mb-3" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top"
+            data-bs-content="email: tara@ul.com">
+            <div class="card-body">
+              <div class="d-flex gap-3">
+                <div class="user-img">
+                  <img src="https://randomuser.me/api/portraits/women/70.jpg" alt="user"
+                    class="img-fluid rounded-circle">
+                </div>
+                <div class="user-info">
+                  <h4>Tara Aldrin</h4>
+                  <h6>New York, NY</h6>
+                  <span class="badge bg-primary text-capitalize">wrestling</span>
+                  <span class="badge bg-primary text-capitalize">gymnastics</span>
+                  <span class="badge bg-primary text-capitalize">travel</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav aria-label="Page navigation">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link disabled" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link active" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
+    </div>
+  </main>
+
+  <script src="../js/bootstrap.bundle.js"></script>
+  <script src="../js/darkmodetoggle.js"></script>
+  <script>
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+    const popoverList = [...popoverTriggerList].map((popoverTrigger) => {
+      new bootstrap.Popover(popoverTrigger);
+    });
+  </script>
+</body>
+
+</html>

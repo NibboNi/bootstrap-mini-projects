@@ -1,0 +1,22 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 800px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media (min-width: 900px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 767px) {
+  .user-list {
+    margin-top: 20px;
+    justify-content: center !important;
+  }
+}
